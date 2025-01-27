@@ -1,0 +1,145 @@
+/* General Body Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif; /* Use Poppins for a modern touch */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #153677, #4e085f); /* Gradient background */
+    color: #fff; /* Text color for better readability */
+  }
+  
+  /* Main Container */
+  .container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Controls for Filtering, Sorting, and Searching */
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .controls select,
+  .controls input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .controls input {
+    flex-grow: 1;
+  }
+  
+  /* Task Form Styles */
+  #taskForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #taskForm input,
+  #taskForm textarea,
+  #taskForm select,
+  #taskForm button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #taskForm button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #taskForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Task List Container */
+  #taskList {
+    margin-top: 20px;
+  }
+  
+  /* Task Table Styles */
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .task-table th,
+  .task-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .task-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .task-table td {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Hover effect for table rows */
+  .task-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .task-table button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Task Action Buttons */
+  .complete-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .complete-btn:hover {
+    background-color: #388E3C;
+  }
+  
+  .edit-btn {
+    background-color: #FFC107;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #FFA000;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Completed Task Styling */
+  .task-completed {
+    text-decoration: line-through;
+    color: #888;
+    opacity: 0.7;
+  }
+  
