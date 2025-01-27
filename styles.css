@@ -6,7 +6,7 @@ body {
     padding: 20px;
     line-height: 1.6;
     background: linear-gradient(135deg, #153677, #4e085f); /* Gradient background */
-    color: #fff; /* Text color for better readability */
+    color: #000000; /* Text color for better readability */
   }
   
   /* Main Container */
